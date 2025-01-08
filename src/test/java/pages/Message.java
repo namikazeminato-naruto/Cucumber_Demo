@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import utilities.DriverClass;
 
-import static pages.loginP.driver;
 
-public class Message {
+public class Message extends DriverClass {
     public static String search_xpath= "//input[@placeholder='Search']";
     public static String profilename_xpath = "(//a[contains(@href, 'linkedin.com/in/') and @data-test-app-aware-link]//span[@aria-hidden='true'])[1]";
     public static String messsage_button_xpath = "(//button[contains(@aria-label,'Message')])[2]";
